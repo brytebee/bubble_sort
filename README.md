@@ -31,7 +31,7 @@ Knowledge of basic Ruby and a [repl it](https://repl.it/~) or IRB test environme
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/brytebee/Afro-Music-Concert/issues).
+Feel free to check the [Pull page](https://github.com/brytebee/bubble_sort/pulls/1).
 
 ## Show your support
 
