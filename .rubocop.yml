@@ -46,4 +46,5 @@ Style/HashEachMethods:
   Enabled: false
 Style/HashTransformKeys:
   Enabled: false
-Style/HashTransformVal
+Style/HashTransformValues:
+  Enabled: false
