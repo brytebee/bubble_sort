@@ -17,4 +17,4 @@ def bubble_sort_by(arr)
   p arr
 end
 
-bubble_sort_by(['lovely', 'loved', 'love', 'lo', 'James', 'Shanana Chronicles']) { |a, b| b.size <=> a.size }
+bubble_sort_by((%w[functioning? is function this])) { |a, b| b.size <=> a.size }
