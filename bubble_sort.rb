@@ -6,10 +6,10 @@ def bubble_sort(arr)
   # swaps
   swap = 0
   arr_length.times do
-    for i in 0..(arr_length - 1) do 
-      if arr[i] > arr[i + 1] 
+    (0..(arr_length - 1)).each do |i|
+      if arr[i] > arr[i + 1]
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
-        swap = swap + 1
+        swap += 1
       end
     end
   end
@@ -17,4 +17,4 @@ def bubble_sort(arr)
   p arr
 end
 
-bubble_sort([8,7,9,5,4,2,6])
+bubble_sort([8, 7, 9, 5, 4, 2, 6])
