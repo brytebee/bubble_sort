@@ -15,7 +15,7 @@
 
 ## screenshot
 
-[screenshot](https://github.com/brytebee/bubble_sort/blob/sort_algorithm/screenshot.JPG)
+![screenshot](https://github.com/brytebee/bubble_sort/blob/sort_algorithm/screenshot.JPG)
 
 
 ### Prerequisites
