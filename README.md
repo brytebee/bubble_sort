@@ -13,6 +13,10 @@
 
 [Live Demo Link](https://www.hackerrank.com/challenges/ctci-bubble-sort/submissions/code/200952481)
 
+## screenshot
+
+![screenshot](https://github.com/brytebee/bubble_sort/blob/sort_algorithm/screenshot.JPG)
+
 
 ### Prerequisites
 
