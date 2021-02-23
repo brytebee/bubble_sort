@@ -7,7 +7,7 @@ def bubble_sort_by(arr)
   swap = 0
   arr_length.times do
     (0..(arr_length - 1)).each do |i|
-      if yield(arr[i], arr[i + 1]).negative?
+      if yield(arr[i], arr[i + 1]).positive?
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
         swap += 1
       end
@@ -17,4 +17,5 @@ def bubble_sort_by(arr)
   p arr
 end
 
-bubble_sort_by(%w[functioning? is function this]) { |a, b| b.size <=> a.size }
+bubble_sort_by(%w[functioning? is function this]) { |a, b| a.size <=> b.size }
+bubble_sort_by(%w[hi hello hey]) { |left, right| left.length - right.length }
